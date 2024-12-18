@@ -6,6 +6,18 @@ body {
   font-weight:500;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container takes at least the full height of the viewport */
+}
+
+.content {
+  flex: 1; /* This allows the content area to grow and fill up the space */
+  padding: 20px;
+  background-color: #000;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#ddd;
   margin:0 0 10px;
@@ -62,8 +74,11 @@ a:hover small {
 
 header {
   width:300px;
-  float:left;
-  position:fixed;
+  min-height:100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -139,9 +154,12 @@ section table strong {
 
 
 footer {
+  clear:both;
   width:300px;
-  float:left;
-  position:fixed;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
   bottom:50px;
   font-size:12px;
   -webkit-font-smoothing:subpixel-antialiased;
