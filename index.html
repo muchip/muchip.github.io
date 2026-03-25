@@ -1,89 +1,100 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Michael Multerer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
     <div class="wrapper">
-<!----------------------------------------------------------------------------->
+      <!-- Header -->
       <header>
-        <img src="resources/mm2020.jpg" style="border-radius:50%"
-          width="240px" alt="mm" />
-        </br>
-        </br>
-        <h1>Michael Multerer</h1>
-        <h3>Universit&agrave; della Svizzera italiana</h3>
-        <p class="view"><a href="http://usi.to/3ps">http://usi.to/3ps</a></p>
-        <ul>
-          <a href="index.html">CV</a>
-        </ul>
-        <ul>
-          <a href="research.html">Research</a>
-        </ul>
-        <ul>
-          <a href="publications.html">Publications</a>
-        </ul>
-        <ul>
-          <a href="lecturenotes.html">Lecture Notes</a>
-        </ul>
-        <ul>
-          <a href="software.html">Software</a>
-        </ul>
-        <ul>
-          <a href="jobs.html">Jobs</a>
-        </ul>
+        <div class="profile">
+          <img src="resources/mm2020.jpg"
+               alt="Portrait of Michael Multerer"
+               width="160"
+               style="border-radius:50%">
+          <h1>Michael Multerer</h1>
+          <h3>Universit&agrave; della Svizzera italiana</h3>
+          <p class="view">
+            <a href="http://usi.to/3ps">http://usi.to/3ps</a>
+          </p>
+        </div>
+
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">CV</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="lecturenotes.html">Lecture Notes</a></li>
+            <li><a href="software.html">Software</a></li>
+          </ul>
+        </nav>
       </header>
-<!----------------------------------------------------------------------------->
-      <section>
-        <h1>CV</h1>
-        </br>
-        <table>
-                    <tr>
-            <td> since 2024 </td> 
-            <td> <strong>Associate professor</strong>, Faculty of Informatics,
-                  </br> USI Lugano. </td>
-            </tr>
 
-          <tr>
-            <td> 2018-2024 </td> 
-            <td> <strong>Assistant professor</strong>, Faculty of Informatics,
-                  </br> USI Lugano. </td>
-            </tr>
-            <tr>
-            <td> 2017-2018 </td> 
-            <td> <strong>PostDoc</strong>, Department of Biosystems Science and
-              Engineering,</br> 
-              ETH Zurich. </td>
-          </tr>
-            <tr>
-            <td> 2014-2017 </td> 
-            <td> <strong>PostDoc</strong>, Institute of Mathematics, </br>University of Basel. </td>
-          </tr>
-            <tr>
-            <td> 2010-2014 </td> 
-            <td> <strong>PhD in Mathematics</strong>, Institute of Mathematics, </br>University of
-              Basel / University of Stuttgart. </td>
-          </tr>
-            <tr>
-            <td> 2004-2010 </td> 
-            <td> <strong>Diploma in Mathematics</strong>, Institute for
-              Numerical Simulation,
-              </br>Rheinische
-              Friedrich-Wilhelms-Universität Bonn. </td>
-          </tr>
+      <!-- Main content -->
+      <main>
+        <section aria-labelledby="cv-heading">
+          <h1 id="cv-heading">CV</h1>
 
-        </table>
+          <table>
+            <tbody>
+              <tr>
+                <td>since 2024</td>
+                <td>
+                  <strong>Associate professor</strong>, Faculty of Informatics,<br>
+                  USI Lugano.
+                </td>
+              </tr>
+              <tr>
+                <td>2018–2024</td>
+                <td>
+                  <strong>Assistant professor</strong>, Faculty of Informatics,<br>
+                  USI Lugano.
+                </td>
+              </tr>
+              <tr>
+                <td>2017–2018</td>
+                <td>
+                  <strong>PostDoc</strong>, Department of Biosystems Science and
+                  Engineering,<br>
+                  ETH Zurich.
+                </td>
+              </tr>
+              <tr>
+                <td>2014–2017</td>
+                <td>
+                  <strong>PostDoc</strong>, Institute of Mathematics,<br>
+                  University of Basel.
+                </td>
+              </tr>
+              <tr>
+                <td>2010–2014</td>
+                <td>
+                  <strong>PhD in Mathematics</strong>, Institute of Mathematics,<br>
+                  University of Basel / University of Stuttgart.
+                </td>
+              </tr>
+              <tr>
+                <td>2004–2010</td>
+                <td>
+                  <strong>Diploma in Mathematics</strong>, Institute for Numerical Simulation,<br>
+                  Rheinische Friedrich-Wilhelms-Universität Bonn.
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
+      </main>
+
+      <!-- Footer -->
       <footer>
-        <p><small>Theme adapted from <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>
+        </p>
       </footer>
     </div>
   </body>
 </html>
+
