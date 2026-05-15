@@ -125,7 +125,17 @@ main h2 {
   font-weight: 400;
 }
 
-
+/* Ensure long list items and links wrap inside the wrapper */
+ol {
+  width: 100%;
+  max-width: 100%;
+}
+ol li {
+  overflow-wrap: break-all;
+}/* Optional: also allow links to break */
+ol li a {
+  word-break: break-all;     /* aggressive but safe for DOIs/URLs */
+}
 /* CV table */
 table {
   width: 100%;
